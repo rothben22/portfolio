@@ -2,6 +2,15 @@
 
 <html lang="en">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160610876-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-160610876-1');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon.jpg"/>
@@ -30,7 +39,7 @@
     <p class="heading">These images highlight people, events, and content that inspires my outlook and my work.</p>
     <div class="gallery-image">
       <div class="img-box">
-        <img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_1024/https://www.ramdass.org/wp-content/uploads/2012/08/ram_dass_2017_dassi_portrait_300dpi-e1509377655280-1024x683.png" alt="Ram Dass, smiling" />
+        <img id="ram" src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_1024/https://www.ramdass.org/wp-content/uploads/2012/08/ram_dass_2017_dassi_portrait_300dpi-e1509377655280-1024x683.png" alt="Ram Dass, smiling" />
         <div class="transparent-box">
           <div class="caption">
             <p>Ram Dass</p>
@@ -39,7 +48,7 @@
         </div> 
       </div>
       <div class="img-box">
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/hero/TVSeries/TheWire_314237900-PMRS25-SR._V392940586_SX1080_.jpg" alt="Omar from The Wire" />
+        <img id="ayoh" src="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/hero/TVSeries/TheWire_314237900-PMRS25-SR._V392940586_SX1080_.jpg" alt="Omar from The Wire" />
         <div class="transparent-box">
           <div class="caption">
             <p>The Wire</p>
@@ -48,7 +57,7 @@
         </div>
       </div>
       <div class="img-box">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Karl_Marx.jpg" alt="Karl Marx" />
+        <img id="marx" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Karl_Marx.jpg" alt="Karl Marx" />
         <div class="transparent-box">
           <div class="caption">
             <p>Karl Marx</p>
@@ -57,7 +66,7 @@
         </div>
       </div>
       <div class="img-box">
-        <img src="https://www.history.com/.image/t_share/MTY3NjU2OTMzNTQzNjUwNTA4/fdr-gettyimages-50425812.jpg" alt="Franklin Delano Roosevelt" />
+        <img id="fdr" src="https://www.history.com/.image/t_share/MTY3NjU2OTMzNTQzNjUwNTA4/fdr-gettyimages-50425812.jpg" alt="Franklin Delano Roosevelt" />
         <div class="transparent-box">
           <div class="caption">
             <p>Franklin Delano Roosevelt</p>
@@ -66,7 +75,7 @@
         </div> 
       </div>
       <div class="img-box">
-        <img src="https://lh3.googleusercontent.com/proxy/akm9Ttb6dnaS8AdExZm7ehBJ4Ih0GcFGq5u4awhqXGvKJUlZoFiDxMP8cnryJM7fBUhmCsZqweJ-K37-1Xcdyb6YonoPMClb1Z2xjuYuoAirkNJPEBokax2Wr61cbSfQY16jvIU5T1LgBUZrI0wCfvWFag" alt="The cover of Why Nations Fail, by Acemoglu and Robinson" />
+        <img id="wnf" src="https://lh3.googleusercontent.com/proxy/akm9Ttb6dnaS8AdExZm7ehBJ4Ih0GcFGq5u4awhqXGvKJUlZoFiDxMP8cnryJM7fBUhmCsZqweJ-K37-1Xcdyb6YonoPMClb1Z2xjuYuoAirkNJPEBokax2Wr61cbSfQY16jvIU5T1LgBUZrI0wCfvWFag" alt="The cover of Why Nations Fail, by Acemoglu and Robinson" />
         <div class="transparent-box">
           <div class="caption">
             <p>Why Nations Fail</p>
@@ -75,7 +84,7 @@
         </div> 
       </div>
       <div class="img-box">
-        <img src="https://d213sdapb08052.cloudfront.net/tmp/about/about_ina.jpg" alt="Ina Garten, smiling" />
+        <img id="ina" src="https://d213sdapb08052.cloudfront.net/tmp/about/about_ina.jpg" alt="Ina Garten, smiling" />
         <div class="transparent-box">
           <div class="caption">
             <p>Ina Garten</p>
@@ -84,7 +93,7 @@
         </div> 
       </div>
       <div class="img-box">
-          <img src="https://miro.medium.com/max/974/1*glHYeQ0pmNsW3Y9msTi7UQ.png" alt="A portrait of David Hume" />
+          <img id="hume" src="https://miro.medium.com/max/974/1*glHYeQ0pmNsW3Y9msTi7UQ.png" alt="A portrait of David Hume" />
           <div class="transparent-box">
             <div class="caption">
               <p>David Hume</p>
@@ -93,7 +102,7 @@
           </div> 
         </div>
         <div class="img-box">
-            <img src="https://www.thetropicalist.press/wp-content/uploads/2017/10/capital-piketty.jpg" alt="Capital, by Piketty" />
+            <img id="capital" src="https://www.thetropicalist.press/wp-content/uploads/2017/10/capital-piketty.jpg" alt="Capital, by Piketty" />
             <div class="transparent-box">
               <div class="caption">
                 <p>Capital</p>
@@ -102,7 +111,7 @@
             </div> 
           </div>
           <div class="img-box">
-              <img src="https://www.denverpost.com/wp-content/uploads/2019/09/902d34eafc6f4e39a2dd5d3b0e403b7c.jpg" alt="Dave Dombrowski, former GM of the Marlins, Tigers, and Red Sox" />
+              <img id="dd" src="https://www.denverpost.com/wp-content/uploads/2019/09/902d34eafc6f4e39a2dd5d3b0e403b7c.jpg" alt="Dave Dombrowski, former GM of the Marlins, Tigers, and Red Sox" />
               <div class="transparent-box">
                 <div class="caption">
                   <p>Dave Dombrowski</p>
