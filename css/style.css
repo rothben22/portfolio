@@ -317,6 +317,20 @@ scroll-behavior: auto;
 -webkit-transition: none;
 transition: none;
 }
+.img-box:hover .caption {
+    transform: none;
+  }
+  .img-box:hover img{ 
+    transform: none;
+  }
+
+  .img-box:focus img{
+      transform: none;
+  }
+  .mailgif{
+    display:none;
+    
+}
 }
 
 
