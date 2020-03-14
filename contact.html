@@ -39,33 +39,33 @@
 <main id="maincontent">
 
   <div class="preform"> I am always looking for projects to inspire and make a difference, and if you believe that I can contribute to something important, please drop me a line! I would love to get in touch. </div>
-  <iframe class="mailgif" src="https://giphy.com/embed/V6XBe0GQZSNO0" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mail-V6XBe0GQZSNO0">via GIPHY</a></p>
+  <iframe id="mailgif" title="Mail Gif" src="https://giphy.com/embed/V6XBe0GQZSNO0" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mail-V6XBe0GQZSNO0">via GIPHY</a></p>
 <div class="formspree">
 
   <form id="form"
   action="https://formspree.io/mqklzjvy"
   method="POST"
   >
-  <div>
+
   <legend id="legend">Contact Form</legend>
-  </div>
+
   <div>
   <label>
     Your name:
-    <input type="text" name="name">
+    <input id="main" type="text" name="name">
   </label>
   </div>
   <div>
   Please select the reason for your communication<br>
-  <input type="radio" name ="purpose" id = "job recruiter" value = "job"> <label for ="job recruiter">Job recruiter</label><br>
+  <input type="radio" name ="purpose" id = "job-recruiter" value = "job"> <label for ="job-recruiter">Job recruiter</label><br>
 
-  <input type="radio" name ="purpose" id = "prospective collaborater" value  ="collab"> <label for ="prospective collaborater" >Prospective collaborater</label><br>
+  <input type="radio" name ="purpose" id = "prospective-collaborater" value  ="collab"> <label for ="prospective-collaborater" >Prospective collaborater</label><br>
 
   <input type="radio" name ="purpose" id = "pig" value  ="labor exploiter"> <label for ="pig">Former employer</label><br>
 
-  <input type="radio" name ="purpose" id = "academic inquiry" value  ="acad"><label for ="academic inquiry">Academic inquiry</label><br>
+  <input type="radio" name ="purpose" id = "academic-inquiry" value  ="acad"><label for ="academic-inquiry">Academic inquiry</label><br>
 
-  <input type="radio" name ="purpose" id = "peer input" value  ="peer"> <label for ="peer input">Peer input</label><br>
+  <input type="radio" name ="purpose" id = "peer-input" value  ="peer"> <label for ="peer-input">Peer input</label><br>
 
   <input type="radio" name ="purpose" id = "other" value  ="other"> <label for ="other">Other</label><br>
  </div>
@@ -83,9 +83,9 @@
  </div>
  <div>
   <button id="button" type="submit">Submit</button>
-  </form>
 </div>
 </div>
+</form>
 </main>
 
 
