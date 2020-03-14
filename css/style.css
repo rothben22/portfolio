@@ -238,7 +238,7 @@ grid-template-columns: auto 250px auto;
 }
 
 
-.mailgif{
+#mailgif{
     align-self: center;
     
 }
@@ -352,7 +352,7 @@ transition: none;
   .img-box:focus img{
       transform: none;
   }
-  .mailgif{
+  #mailgif{
     display:none;
     
 }
