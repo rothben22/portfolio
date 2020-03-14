@@ -206,7 +206,7 @@ main p{
     padding: 10px;
 }
 
-#mobile{
+.mobile{
     height: 2000px;
 }
 
@@ -374,7 +374,7 @@ transition: none;
     nav a{
         padding: 10px 18px 10px 18px;
     }
-    #mobile{
+    .mobile{
         height: 1800px;
     }
 }    
@@ -417,7 +417,7 @@ main p{
 #mobileresume{
     display:none;
 }
-#mobile{
+.mobile{
     height: 1600px;
 }
 
