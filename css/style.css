@@ -375,16 +375,15 @@ transition: none;
 }
 
 
-@media all and (min-width: 600px){
+@media all and (min-width: 800px){
     .gallery{
         width: calc(100% / 3);
     }
 
     .gallery_grid{
-        display:flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-evenly;
+        display:grid;
+        grid-row: 1/-1;
+        grid-column: 2;
     }
 
     nav a{
@@ -397,7 +396,7 @@ transition: none;
     }
 }    
 
-@media all and (min-width: 800px){
+@media all and (min-width: 1444px){
 header{
 display: flex;
 flex-direction: row-reverse;
@@ -440,19 +439,17 @@ main p{
 }
 
 .gallery_grid{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
+    display:grid;
+    grid-row: 1/-1;
+    grid-column: 2/3;
+
+
 }
 
 .gallery{
     width: calc(100% / 4);
 }
 
-nav li{
-align-self: flex-end;
-}
 nav a{
 align-self: flex-end;
 padding: 6px 12px 6px 12px;
